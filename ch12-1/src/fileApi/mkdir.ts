@@ -1,4 +1,5 @@
-// import { dir } from "console";
+//파일이나 디렉터리가 있는지를 판단해 없을때만 디렉터리 생성
+
 import mkdirp from "mkdirp";
 // import { resolve } from "path";
 import { fileExists } from "./fileExists";

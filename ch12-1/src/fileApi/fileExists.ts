@@ -1,3 +1,5 @@
+//파일이나 디렉터리가 있는지 확인
+
 import * as fs from 'fs'
 import { resolve } from 'path'
 

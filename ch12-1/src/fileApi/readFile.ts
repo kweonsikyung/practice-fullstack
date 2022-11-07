@@ -1,3 +1,5 @@
+//파일읽기
+
 import * as fs from 'fs'
 
 export const readFile = (filename : string ) : Promise<any> => 

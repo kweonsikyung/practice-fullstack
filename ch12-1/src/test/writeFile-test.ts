@@ -1,3 +1,5 @@
+//디렉터리 생성 후, txt/json 파일 생성과 내용 작성
+
 import * as path from 'path'
 import {writeFile} from '../fileApi/writeFile'
 import {mkdir} from '../fileApi/mkdir'

@@ -1,3 +1,5 @@
+//파일읽기
+
 import {readFile} from '../fileApi/readFile'
 
 const readTest = async(filename : string) => {
