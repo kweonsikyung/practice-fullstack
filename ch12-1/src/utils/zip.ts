@@ -1,12 +1,14 @@
 //csv포맷 파일을 읽는 코드
 //csv 파일은 첫 줄에 객체의 속성 이름들이 있고, 두번째 줄부터는 속성값들만 있다
 //이를 고려하면 
-//객체의 속성명 배열과/ 속성값 배열을 결합해 객체를 만드는 함수가 필요하다
+//객체의 속성명 배열과/ 속성값 배열을 결합해 객체를 만드는 함수가 필요하다 
+//속성명 배열과 속성값 배열을 만들고 -> 다시 zip함수를 이용해 (가짜 데이터)를 -> 다시 IFake 타입 객체로 만든다
 //이러한 기능을 하는 함수는 보통 zip이라는 이름으로 구현한다
 
 export const zip = (keys : string[], values:any[]) => {
     const makeObject = (key:string, value:any) => ({[key] : value})
     const mergeObject = (a : any[]) => a.reduce((sum, val) => ({...sum, ...val}), {})
+    //{...sum, ...val} 배열 합친건가?
 
     let tmp = keys  
         .map((key, index) => [key, values[index]])
