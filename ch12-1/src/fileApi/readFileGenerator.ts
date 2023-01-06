@@ -1,8 +1,9 @@
 import * as fs from 'fs'
 
+//제너레이터 -> yield발생시키기
 export function *readFileGenerator(filename: string): any {
   let fd:any
-
+  
   try {
     fd = fs.openSync(filename, "rs")
     const stats = fs.fstatSync(fd)
