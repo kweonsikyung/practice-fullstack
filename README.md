@@ -2,10 +2,10 @@
 # Practice-FullStack
 
 ### 목표
-1. 빅데이터 배치 프로그램 만들기
-2. 몽고DB에 데이터 저장하기
-3. 익스프레스로 API 서버 만들기
-4. 리액트와 부트스트랩으로 프론트 웹 만들기
+1. Maiking a BigData Placement Program
+2. CRUD - mongoDB
+3. API server - express
+4. front - react/bootstrap
 
 ### 프로젝트 구성
 1. node.js의 fs패키지가 제공하는 비동기 방식 API들의 Promise 방식 구현
